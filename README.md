@@ -6,7 +6,7 @@ A boilerplate project for Seeed Studio's [XIAO-ESP32S3-Sense](https://www.seeeds
  - Initializes the external PSRAM.
  - Mounts the internal flash as a storage medium.
  
- **Partiotion Table**:
+ **Partition Table**:
 
 The 8MB flash is partitioned as follows, there are 20KBs of space allocated as `nvs` key-value storage, an `otadata` partition, and two `app` partitions defined, 2MBs each, so OTA updates can be supported as well. And finally 3.93MBs of space is allocated to the `storage` partition that is available to the user to work with.
 
